@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" role="img" aria-label="音乐素材">
+  <title>音乐素材</title>
+  <defs>
+    <linearGradient id="rear" x1=".08" y1="0" x2=".86" y2="1">
+      <stop stop-color="#ececec"/><stop offset=".32" stop-color="#b6b6b6"/>
+      <stop offset=".63" stop-color="#797979"/><stop offset="1" stop-color="#d6d6d6"/>
+    </linearGradient>
+    <linearGradient id="face" x1=".02" y1="0" x2=".98" y2="1">
+      <stop stop-color="#f4f4f4"/><stop offset=".19" stop-color="#d2d2d2"/>
+      <stop offset=".52" stop-color="#b2b2b2"/><stop offset=".78" stop-color="#979797"/>
+      <stop offset="1" stop-color="#7c7c7c"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#5b5b5b"/><stop offset=".32" stop-color="#bfbfbf"/>
+      <stop offset=".71" stop-color="#727272"/><stop offset="1" stop-color="#3b3b3b"/>
+    </linearGradient>
+    <linearGradient id="slot" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#111111"/><stop offset=".45" stop-color="#292929"/>
+      <stop offset="1" stop-color="#151515"/>
+    </linearGradient>
+    <linearGradient id="polished" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff"/><stop offset=".36" stop-color="#b2b2b2"/>
+      <stop offset=".64" stop-color="#535353"/><stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+    <radialGradient id="lamp">
+      <stop stop-color="#fff6b1"/><stop offset=".38" stop-color="#ffbb24"/>
+      <stop offset=".78" stop-color="#c86f00"/><stop offset="1" stop-color="#5c390c"/>
+    </radialGradient>
+    <radialGradient id="vinyl">
+      <stop stop-color="#0f0f0f"/><stop offset=".17" stop-color="#323232"/>
+      <stop offset=".43" stop-color="#121212"/><stop offset=".7" stop-color="#2e2e2e"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </radialGradient>
+    <pattern id="brushed" width="7" height="3" patternUnits="userSpaceOnUse">
+      <path d="M0 .5h7" stroke="#fff" stroke-opacity=".2" stroke-width=".45"/>
+      <path d="M0 2.4h7" stroke="#363636" stroke-opacity=".13" stroke-width=".4"/>
+    </pattern>
+    <clipPath id="face-cut">
+      <path d="M31 78h179q14 0 16 14v106q0 15-15 15H35q-13 0-13-14V92q0-13 9-14Z"/>
+    </clipPath>
+    <filter id="floor-shadow" x="-30%" y="-200%" width="160%" height="500%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <g id="screw">
+      <circle r="5.7" fill="#4f4f4f" stroke="#f7f7f7" stroke-width="1.15"/>
+      <circle r="3.9" fill="#878787" stroke="#383838" stroke-width=".9"/>
+      <path d="M-2.8-.1 -.5-2.7 2.8-.5 .5 2.8Z" fill="#2b2b2b" stroke="#cfcfcf" stroke-width=".5"/>
+    </g>
+  </defs>
+  <ellipse cx="130" cy="219" rx="97" ry="6" fill="#000" opacity=".62" filter="url(#floor-shadow)"/>
+  <path d="M39 84V46q0-15 15-15h55q9 0 13 8l11 17h82q17 0 19 17v122q0 12-13 14H45q-10 0-10-12Z"
+    fill="url(#rear)" stroke="#e8e8e8" stroke-width="1.7"/>
+  <path d="M48 36h62q6 0 9 6l11 18 86 1q11 0 13 10" fill="none" stroke="#fff" stroke-opacity=".8" stroke-width="1.4"/>
+  <path d="M225 80q8 2 11 8v108q-1 10-12 13l-4-8V90Z" fill="url(#side)" stroke="#383838" stroke-width="1"/>
+  <path d="M231 93v96" fill="none" stroke="#e9e9e9" stroke-opacity=".8" stroke-width="1.2"/>
+  <path d="M232 101v82" fill="none" stroke="#383838" stroke-width="1.8"/>
+  <path d="M31 78h179q14 0 16 14v106q0 15-15 15H35q-13 0-13-14V92q0-13 9-14Z"
+    fill="url(#face)" stroke="#f1f1f1" stroke-width="1.7"/>
+  <rect x="22" y="78" width="204" height="135" fill="url(#brushed)" clip-path="url(#face-cut)"/>
+  <path d="M29 84q4-3 10-3h169q12 0 14 12v103q0 12-12 13H35q-9 0-10-11V93q0-6 4-9Z"
+    fill="none" stroke="#5d5d5d" stroke-opacity=".48" stroke-width="1.2"/>
+  <path d="M28 88q3-4 10-4h168" fill="none" stroke="#fff" stroke-opacity=".72" stroke-width="1.2"/>
+  <path d="M27 201q3 8 11 8h168q13 0 16-11" fill="none" stroke="#f6f6f6" stroke-opacity=".42" stroke-width="1"/>
+  <path d="M43 75h164" fill="none" stroke="#363636" stroke-opacity=".35" stroke-width="1"/>
+  <path d="M39 207h165" fill="none" stroke="#5d5d5d" stroke-opacity=".48" stroke-width="1"/>
+  <rect x="58" y="105" width="139" height="34" rx="5" fill="#7e7e7e" stroke="#f2f2f2" stroke-width="1.4"/>
+  <rect x="61" y="108" width="133" height="28" rx="3.5" fill="url(#slot)" stroke="#474747" stroke-width="1"/>
+  <path d="M64 109h128" stroke="#494949" stroke-width=".7"/>
+  <circle cx="207" cy="119" r="5.9" fill="#4c4c4c" stroke="#f0f0f0" stroke-width="1.2"/>
+  <circle cx="207" cy="119" r="3.9" fill="url(#lamp)"/>
+  <use href="#screw" x="35" y="93"/><use href="#screw" x="211" y="93"/>
+  <use href="#screw" x="35" y="197"/><use href="#screw" x="211" y="197"/>
+  <circle cx="231" cy="103" r="3" fill="#505050" stroke="#d0d0d0" stroke-width=".9"/>
+  <circle cx="231" cy="190" r="3" fill="#505050" stroke="#d0d0d0" stroke-width=".9"/><circle cx="117" cy="174" r="27" fill="#4f4f4f" stroke="#f1f1f1" stroke-width="1.5"/>
+    <circle cx="117" cy="174" r="23.5" fill="url(#vinyl)" stroke="#272727" stroke-width="1"/>
+    <circle cx="117" cy="174" r="17.5" fill="none" stroke="#919191" stroke-opacity=".58" stroke-width=".8"/>
+    <circle cx="117" cy="174" r="12.5" fill="none" stroke="#5f5f5f" stroke-width=".9"/>
+    <circle cx="117" cy="174" r="7" fill="url(#polished)" stroke="#171717" stroke-width="1"/>
+    <circle cx="117" cy="174" r="2.2" fill="#272727"/>
+    <circle cx="157" cy="151" r="5.4" fill="url(#polished)" stroke="#414141" stroke-width="1"/>
+    <path d="M158 155l-8 10-18 12" fill="none" stroke="#3b3b3b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M158 154l-8 10-18 12" fill="none" stroke="#e1e1e1" stroke-width="2.7" stroke-linecap="round"/>
+    <path d="M129 176l6 4-4 5-7-4Z" fill="#b6b6b6" stroke="#333333" stroke-width=".8"/>
+</svg>

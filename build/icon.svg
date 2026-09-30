@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="metal" x1="0.08" y1="0.02" x2="0.93" y2="0.98" objectBoundingBox="1">
+      <stop offset="0" stop-color="#f7f8f4"/>
+      <stop offset="0.2" stop-color="#dfe1dd"/>
+      <stop offset="0.56" stop-color="#bfc2bf"/>
+      <stop offset="0.84" stop-color="#e5e7e2"/>
+      <stop offset="1" stop-color="#969a98"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1" objectBoundingBox="1">
+      <stop offset="0" stop-color="#f8faf6"/>
+      <stop offset="0.37" stop-color="#858b89"/>
+      <stop offset="0.62" stop-color="#f1f3ed"/>
+      <stop offset="1" stop-color="#666b6a"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.32" cy="0.25" r="0.88">
+      <stop offset="0" stop-color="#353b39"/>
+      <stop offset="0.68" stop-color="#222625"/>
+      <stop offset="1" stop-color="#111514"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="0.9" y2="1" objectBoundingBox="1">
+      <stop offset="0" stop-color="#f9faf5"/>
+      <stop offset="0.45" stop-color="#d7dbd6"/>
+      <stop offset="1" stop-color="#9ba19f"/>
+    </linearGradient>
+    <radialGradient id="lamp"><stop offset="0" stop-color="#f5c864"/><stop offset="0.62" stop-color="#d39a42"/><stop offset="1" stop-color="#8c5b21"/></radialGradient>
+    <filter id="plate-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="13" dy="26" stdDeviation="21" flood-color="#202322" flood-opacity="0.38"/>
+    </filter>
+    <filter id="mark-shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="5" dy="7" stdDeviation="4" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect x="66" y="66" width="892" height="892" rx="128" fill="url(#metal)" filter="url(#plate-shadow)"/>
+  <rect x="77" y="77" width="870" height="870" rx="120" fill="none" stroke="#fafbf6" stroke-width="14" opacity="0.88"/>
+  <rect x="91" y="91" width="842" height="842" rx="110" fill="none" stroke="#8d9391" stroke-width="3" opacity="0.45"/>
+  <circle cx="512" cy="512" r="312" fill="url(#rim)"/>
+  <circle cx="512" cy="512" r="290" fill="url(#face)" stroke="#101413" stroke-width="10"/>
+  <circle cx="512" cy="512" r="281" fill="none" stroke="#ecf0ea" stroke-width="8" opacity="0.92"/>
+  <g fill="none" stroke="url(#mark)" stroke-width="27" stroke-linecap="square" filter="url(#mark-shadow)">
+    <path d="M512 337V687M337 512H687M388 388L636 636M636 388L388 636"/>
+  </g>
+  <circle cx="512" cy="512" r="30" fill="url(#mark)" stroke="#f5f6f1" stroke-width="5"/>
+  <g fill="#727977" stroke="#f7f8f3" stroke-width="5">
+    <circle cx="160" cy="160" r="13"/><circle cx="864" cy="160" r="13"/>
+    <circle cx="160" cy="864" r="13"/>
+  </g>
+  <circle cx="853" cy="848" r="20" fill="url(#lamp)" stroke="#3e4543" stroke-width="7"/>
+</svg>

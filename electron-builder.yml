@@ -1,0 +1,26 @@
+appId: com.whyj.pocketdesktop
+productName: YJ-Pocket-Desktop
+directories:
+  output: dist/packages
+files:
+  - app/index.html
+  - app/styles/*.css
+  - package.json
+  - dist/web/*.js
+  - dist/web/chunks/*.js
+  - dist/server.cjs
+  - dist/electron-main.cjs
+  - app/assets/media-archive/*.svg
+asar: true
+win:
+  icon: build/icon.ico
+  target: portable
+  artifactName: YJ-Pocket-Desktop-${version}-win-${arch}.${ext}
+mac:
+  icon: build/icon.png
+  target: dmg
+  artifactName: YJ-Pocket-Desktop-${version}-mac-${arch}.${ext}
+linux:
+  icon: build/icon.png
+  target: AppImage
+  artifactName: YJ-Pocket-Desktop-${version}-linux-${arch}.${ext}

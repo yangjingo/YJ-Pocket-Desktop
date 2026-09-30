@@ -31,4 +31,10 @@
 - 想从源码启动、二次开发或自行打包：阅读[开发与构建指南](docs/development.md)。
 - 想了解设计和路线：[文档导航](docs/README.md) · [宣传片工程](docs/media/promo/README.md) · [更新记录](CHANGELOG.md)。
 
+## 运行未签名的 Windows 预览版
+
+1. 仅从[官方 v1.2.3 Release](https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3) 下载 `YJ-Pocket-Desktop-1.2.3-win-x64.exe`。在下载目录打开 PowerShell，运行 `Get-FileHash .\YJ-Pocket-Desktop-1.2.3-win-x64.exe -Algorithm SHA256`，结果必须是 `65E23F8519DB997624C653BDDC3266AF342DB09F85F31FC45DC09763E7FBED85`。若不一致，请勿运行。
+2. 在允许运行未签名应用的个人 Windows 设备上打开便携 EXE。如果仅出现 SmartScreen 的“Windows 已保护你的电脑”信誉提示，且你已确认下载来源与哈希值，可以选择“更多信息 → 仍要运行”。启动后，在设置中选择自己的素材目录；下载包不包含个人素材。
+3. 如果没有“仍要运行”、被管理员或 Smart App Control 阻止，或杀毒软件报告威胁，请停止操作。不要为运行预览版而关闭 Windows 安全功能或修改组织策略；请改用允许未签名应用的设备，或联系管理员。本预发布版尚未通过 Windows 实机启动验收。
+
 代码采用 [MIT 许可证](LICENSE)。本地媒体、密钥、缓存和 `dist/` 构建产物不进入公开仓库。

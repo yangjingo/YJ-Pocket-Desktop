@@ -31,4 +31,10 @@ The project takes inspiration from Everything’s responsiveness, but it neither
 - To run from source, contribute, or build a package, follow the [development guide](docs/development.en.md).
 - Explore the [documentation index (Chinese)](docs/README.md), [promo project](docs/media/promo/README.md), and [changelog](CHANGELOG.md).
 
+## Run the unsigned Windows preview
+
+1. Download `YJ-Pocket-Desktop-1.2.3-win-x64.exe` only from the [official v1.2.3 release](https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3). Open PowerShell in the download folder and run `Get-FileHash .\YJ-Pocket-Desktop-1.2.3-win-x64.exe -Algorithm SHA256`. The result must be `65E23F8519DB997624C653BDDC3266AF342DB09F85F31FC45DC09763E7FBED85`. If it differs, do not run the file.
+2. On a personal Windows device that permits unsigned apps, open the portable EXE. If Windows shows only the SmartScreen **“Windows protected your PC”** reputation warning, and you trust the source and have checked the hash, select **More info → Run anyway**. Then choose your own media folder in Settings; the download contains no personal media.
+3. If **Run anyway** is unavailable, an administrator or Smart App Control blocks the app, or antivirus reports a threat, stop. Do not turn off Windows security features or change an organization’s policy to run this preview. Use a device where unsigned apps are permitted, or ask your administrator. This pre-release has not yet passed a real Windows launch test.
+
 The code is [MIT-licensed](LICENSE). Personal media, secrets, caches, and `dist/` build output are excluded from the public repository.

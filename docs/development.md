@@ -65,4 +65,4 @@ npm run promo:studio
 npm run promo:render:en
 ```
 
-`promo:assets` 在 `dist/promo-demo-media/` 生成隔离演示库，并重建工程音频；重新拍摄界面的步骤见宣传片 README。录音批处理走 `node scripts/transcribe.mjs`，支持 `--root`、`--dry-run` 和 `--asr-only`。ASR 会调用外部服务，不要用真实录音做无意的测试；详情见[素材迁移规格](specs/media-library-migration.md)。
+`promo:assets` 在 `dist/promo-demo-media/` 生成隔离演示库，并重建工程音频；重新拍摄界面的步骤见宣传片 README。录音批处理先运行 `npm run build:voice`，再运行 `node dist/voice-transcribe.cjs --root "<录音目录>" --all --dry-run`。须用 `--all`、`--file` 或 `--category` 指定范围，可按需加 `--asr-only`。去掉 `--dry-run` 后 ASR 会调用外部服务，不要用真实录音做无意的测试；详情见[素材迁移规格](specs/media-library-migration.md)。

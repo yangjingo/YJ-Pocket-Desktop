@@ -65,4 +65,4 @@ npm run promo:studio
 npm run promo:render:en
 ```
 
-`promo:assets` creates an isolated synthetic library in `dist/promo-demo-media/` and regenerates the project audio. See the promo README for UI recapture steps. Recording batch processing uses `node scripts/transcribe.mjs` with options such as `--root`, `--dry-run`, and `--asr-only`. ASR calls an external service; do not test it inadvertently with private recordings. See the [media migration spec](specs/media-library-migration.md).
+`promo:assets` creates an isolated synthetic library in `dist/promo-demo-media/` and regenerates the project audio. See the promo README for UI recapture steps. For recording batches, first run `npm run build:voice`, then `node dist/voice-transcribe.cjs --root "<recordings-directory>" --all --dry-run`. Select a scope with `--all`, `--file`, or `--category`, and add `--asr-only` if needed. Without `--dry-run`, ASR calls an external service, so do not test it inadvertently with private recordings. See the [media migration spec](specs/media-library-migration.md).

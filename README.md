@@ -1,8 +1,10 @@
-<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop silver metal emblem" width="92" /></p>
+<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop silver metal emblem" width="48" /></p>
 
 <h1 align="center">YJ-Pocket-Desktop</h1>
 
 <p align="center"><strong>Your media, in its place.</strong><br />A local-first creative desktop for your pocket drive.</p>
+
+<p align="center"><img src="app/assets/media-archive/photos.svg" alt="" width="28" />&nbsp; Photos &nbsp;&nbsp; <img src="app/assets/media-archive/videos.svg" alt="" width="28" />&nbsp; Videos &nbsp;&nbsp; <img src="app/assets/media-archive/music.svg" alt="" width="28" />&nbsp; Music &nbsp;&nbsp; <img src="app/assets/media-archive/recordings.svg" alt="" width="28" />&nbsp; Recordings</p>
 
 <p align="center"><a href="README.zh.md">简体中文</a> · <a href="docs/media/yj-pocket-desktop-30s-en.mp4">Watch the 30-second film</a> · <a href="https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3">Download Windows preview</a></p>
 

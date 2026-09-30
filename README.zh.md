@@ -1,8 +1,10 @@
-<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop 银色金属徽记" width="92" /></p>
+<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop 银色金属徽记" width="48" /></p>
 
 <h1 align="center">YJ-Pocket-Desktop</h1>
 
 <p align="center"><strong>让素材有其形状。</strong><br />一座可以装进口袋硬盘的本地创意桌面。</p>
+
+<p align="center"><img src="app/assets/media-archive/photos.svg" alt="" width="28" />&nbsp; 照片 &nbsp;&nbsp; <img src="app/assets/media-archive/videos.svg" alt="" width="28" />&nbsp; 视频 &nbsp;&nbsp; <img src="app/assets/media-archive/music.svg" alt="" width="28" />&nbsp; 音乐 &nbsp;&nbsp; <img src="app/assets/media-archive/recordings.svg" alt="" width="28" />&nbsp; 录音</p>
 
 <p align="center"><a href="README.md">English</a> · <a href="docs/media/yj-pocket-desktop-30s-en.mp4">观看 30 秒宣传片</a> · <a href="https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3">下载 Windows 预览版</a></p>
 

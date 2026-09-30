@@ -2,6 +2,12 @@
 
 当前英文成片：[YJ-Pocket-Desktop 30 秒演示](../yj-pocket-desktop-30s-en.mp4)（1920 × 1080、30 fps、H.264/AAC）。此前的中文成片是带旧首页标题牌的历史版本，留在本机，不随公开仓库发布；工程仍保留中文时间轴和截图，可按需重新制作。这些是产品界面的宣传展示，不是功能测试录像：画面来自实际运行的本地应用，所示照片和音乐是脚本生成的合成演示素材，不含 `D:\YJ-Media` 私人数据。
 
+仓库首页使用 [`yj-pocket-desktop-preview-en.gif`](../yj-pocket-desktop-preview-en.gif) 作为无声循环预览，点击后打开完整 MP4。GitHub README 不依赖视频自动播放；成片更新后，用以下命令从 3.5–11.5 秒重做预览（760 px、8 fps、96 色），再检查画面和文件大小：
+
+```powershell
+ffmpeg -ss 3.5 -t 8 -i docs/media/yj-pocket-desktop-30s-en.mp4 -filter_complex "[0:v]fps=8,scale=760:-1:flags=lanczos,split[v1][v2];[v1]palettegen=max_colors=96:stats_mode=diff[p];[v2][p]paletteuse=dither=bayer:bayer_scale=3" -loop 0 docs/media/yj-pocket-desktop-preview-en.gif
+```
+
 镜头节奏：
 
 | 时间 | 镜头 | 信息边界 |

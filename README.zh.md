@@ -1,14 +1,16 @@
-# YJ-Pocket-Desktop
+<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop 银色金属徽记" width="92" /></p>
 
-[English](README.md) · 中文
+<h1 align="center">YJ-Pocket-Desktop</h1>
 
-<img src="build/icon.png" alt="YJ-Pocket-Desktop 银色金属徽记" width="120" />
+<p align="center"><strong>让素材有其形状。</strong><br />一座可以装进口袋硬盘的本地创意桌面。</p>
 
-把创意素材装进一座可以随身携带的桌面。YJ-Pocket-Desktop 是一款本地优先的素材浏览器：用银色金属的 3D 桌面，让照片、视频、音乐和录音各有自己的入口，最终希望让散落在不同硬盘上的作品也能被快速找到、安心整理。
+<p align="center"><a href="README.md">English</a> · <a href="docs/media/yj-pocket-desktop-30s-en.mp4">观看 30 秒宣传片</a> · <a href="https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3">下载 Windows 预览版</a></p>
 
-[![观看 30 秒产品演示](docs/media/yj-pocket-desktop-poster-en.webp)](docs/media/yj-pocket-desktop-30s-en.mp4)
+<p align="center"><a href="docs/media/yj-pocket-desktop-30s-en.mp4"><img src="docs/media/yj-pocket-desktop-preview-en.gif" alt="银色桌面、素材浏览和照片画廊的无声循环预览" width="760" /></a></p>
 
-[观看 30 秒英文演示（MP4）](docs/media/yj-pocket-desktop-30s-en.mp4) · 画面使用合成演示素材，不含个人媒体。镜头中的搜索仅演示当前文件夹的文件名筛选。
+<p align="center"><sub>上方为无声循环预览；点击可打开带音乐与字幕的完整 MP4。演示画面使用合成素材；片中的搜索仅筛选当前文件夹的文件名。</sub></p>
+
+YJ-Pocket-Desktop 用克制的银色金属桌面安放照片、视频、音乐和录音。选择一个素材目录，就能在本地浏览与预览，并带着应用随硬盘走。跨盘快速发现与安全整理是后续方向，当前预览版尚未实现。
 
 ## 已经可以体验
 

@@ -1,14 +1,16 @@
-# YJ-Pocket-Desktop
+<p align="center"><img src="build/icon.png" alt="YJ-Pocket-Desktop silver metal emblem" width="92" /></p>
 
-English · [简体中文](README.zh.md)
+<h1 align="center">YJ-Pocket-Desktop</h1>
 
-<img src="build/icon.png" alt="YJ-Pocket-Desktop silver metal emblem" width="120" />
+<p align="center"><strong>Your media, in its place.</strong><br />A local-first creative desktop for your pocket drive.</p>
 
-A creative desk you can carry on a pocket drive. YJ-Pocket-Desktop is a local-first media browser with a restrained, metallic 3D workspace. Photos, videos, music, and recordings have distinct places to land. The longer-term ambition is to make work scattered across drives fast to find and safe to organize.
+<p align="center"><a href="README.zh.md">简体中文</a> · <a href="docs/media/yj-pocket-desktop-30s-en.mp4">Watch the 30-second film</a> · <a href="https://github.com/yangjingo/YJ-Pocket-Desktop/releases/tag/v1.2.3">Download Windows preview</a></p>
 
-[![Watch the 30-second product demo](docs/media/yj-pocket-desktop-poster-en.webp)](docs/media/yj-pocket-desktop-30s-en.mp4)
+<p align="center"><a href="docs/media/yj-pocket-desktop-30s-en.mp4"><img src="docs/media/yj-pocket-desktop-preview-en.gif" alt="Silent looping preview of the silver desktop, media browsing, and photo gallery" width="760" /></a></p>
 
-[Watch the 30-second English demo (MP4)](docs/media/yj-pocket-desktop-30s-en.mp4) · It uses synthetic demo media, not personal files. Search in the video filters filenames in the current folder only.
+<p align="center"><sub>The preview loops silently. Click it for the full MP4 with music and captions. Demo media is synthetic; search shown in the film filters filenames in the current folder only.</sub></p>
+
+YJ-Pocket-Desktop gives photos, videos, music, and recordings a calm, metallic workspace. Choose a media folder, browse and preview your files locally, and take the app with your drive. The vision is faster discovery and safer organization across drives; those capabilities are not yet in this preview.
 
 ## What works today
 
